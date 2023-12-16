@@ -1,0 +1,60 @@
+{
+  "name": "mf-4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/avatar": "^21.4.2",
+    "@atlaskit/css-reset": "^6.6.1",
+    "@atlaskit/dropdown-menu": "^12.1.9",
+    "@atlaskit/dynamic-table": "^14.11.11",
+    "@atlaskit/tokens": "^1.29.1",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-typescript": "^7.23.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.47",
+    "@types/react-dom": "^16.9.8",
+    "react": "16.8",
+    "react-dom": "16.8",
+    "react-scripts": "3.4.1",
+    "style-loader": "^3.3.1",
+    "typescript": "^3.7.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
